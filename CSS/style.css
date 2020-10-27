@@ -19,17 +19,73 @@
 
 body {
     font-family: var( --font );
+    font-size: 16px;
     background-color: var( --background );
 }
 
-@media screen and (max-width: 1199px) {
+img {
+    width: 100%;
+}
+
+.topo {
+    width: 100%;
+    height: 5em;
+}
+
+.content {
+    width: 85%;
+    height: 100%;
+    max-width: 75em;
+    margin: auto;
+}
+
+.flex-center-bt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topo img {
+    max-width: 19em;
+}
+
+.menu {
+    width: 100%;
+    max-width: 50em;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #aaa;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1,5em;
+    padding: 0.9em 0.5em;
+}
+
+.menu a:hover {
+    background-color: var( --red );
+}
+
+#menu-bars {
+    display: none;
+}
+
+@media screen and (max-width: 74.93empx) {
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 47.93em) {
 
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 35.95em) {
 
 }
