@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
 
@@ -71,7 +72,7 @@ img {
 }
 
 .menu a:hover {
-    background-color: var( --red );
+    background-color: var(--red);
 }
 
 #menu-bars {
@@ -80,11 +81,12 @@ img {
 
 .banner {
     width: 100%;
+    position: relative;
 }
 
 .banner-position {
     width: 100%;
-    height: 37.5em;
+    height: 100%;
     /* background-color: rgba(0, 0, 255, 0.164); */
     position: absolute;
     top: 0;
@@ -137,6 +139,7 @@ img {
 .jogos {
     width: 100%;
     height: 7.5em;
+    color: #fff;
     /* background-color: aliceblue; */
 }
 
@@ -146,7 +149,7 @@ img {
 }
 
 .jogos ul a:hover img {
-    transition: 0.5s;
+    transition: 0.2s;
     transform: scale(1.1);
 }
 
@@ -162,6 +165,7 @@ img {
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .angulation {
@@ -197,6 +201,49 @@ img {
 
 .about-position img {
     max-width: 31.87em;
+}
+
+.jogos-aovivo, .jogos-embreve{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.575em;
+}
+
+.jogos-aovivo h2, .jogos-embreve h2{
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.linha{
+    
+    height: 3em;
+    border:solid 1px #fff;
+}
+
+.partida{
+    width: 9.5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1em;
+}
+
+.partida img {
+    max-width: 1.8em; 
+}
+.time1, .time2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+}
+
+.time1 img{
+    margin-left: 0.5em;
+}
+
+.time2 img{
+    margin-right: 0.5em;
 }
 
 @media screen and (max-width: 74.93empx) {
