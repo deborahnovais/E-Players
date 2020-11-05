@@ -6,6 +6,7 @@
     --background : #000000;
     --red : #C20000;
     --blue : #001F70;
+    --black1: #1E1C21;
     --gradient : linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
     --font : font-family: 'Titillium Web', sans-serif;
 
@@ -140,7 +141,6 @@ img {
     width: 100%;
     height: 7.5em;
     color: #fff;
-    /* background-color: aliceblue; */
 }
 
 .jogos ul {
@@ -191,7 +191,6 @@ img {
 .about-text h2 {
     font-size: 2.18rem;
     margin-bottom: 0.5em;
-    
 }
 
 .about-text p {
@@ -215,7 +214,6 @@ img {
 }
 
 .linha {
-    
     height: 3em;
     border:solid 1px #fff;
 }
@@ -231,6 +229,7 @@ img {
 .partida img {
     max-width: 1.8em; 
 }
+
 .time1, .time2 {
     display: flex;
     justify-content: space-between;
@@ -260,7 +259,7 @@ img {
 .noticias h2, .proximos-jogos h2 {
     color: #fff;
     margin: 0.5em 0;
-    font-size: 2.1875em;
+    font-size: 1.92em;
     text-transform: uppercase;
 }
 
@@ -268,6 +267,7 @@ img {
     width: 25%;
     height:auto;
 }
+
 .newscard {
     width: 100%;
     max-width: 15em;
@@ -288,6 +288,7 @@ img {
 .wrap {
     flex-wrap: wrap;
 } 
+
 .proximas-partidas {
     background: var(--gradient);
     height: 750px;
@@ -295,9 +296,13 @@ img {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-
+    box-shadow: 0px 0px 15px rgb(59, 59, 59);
 }
+
+.proximas-partidas p {
+    margin-top: 0.5em;
+}
+
 .game {
     width: 90%;
     height: auto;
@@ -329,6 +334,74 @@ img {
 
 .times img {
     width: 2.5em;
+}
+
+.rodape {
+    padding: 1em 0;
+    color: #fff;
+}
+
+.logo-rodape {
+    max-width: 18.75em;
+}
+
+.links-footer {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links h2 {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.links ul {
+    color: #fff;
+    margin-top: 0.5em;
+}
+
+.links li {
+    margin-left: 2em;
+}
+
+.links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sociais {
+    width: 33%;
+}
+
+.newsletter h2 {
+    font-size: 0.875em;
+    margin-bottom: 0.5em;
+}
+
+.newsletter input[type="email"] {
+    width: 12.5em;
+    height: 2.5em;
+    font-size: 1.1em;
+    padding-left: 1em;
+}
+
+.newsletter input[type="email"]::placeholder {
+    color: rgba(102, 102, 102);
+    font-weight: bold;
+}
+
+.newsletter input[type="submit"] {
+    height: 2.5em;
+    width: 9.75em;
+    font-size: 1.1em;
+    background-color: #8326EF;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.siga-nos {
+    margin-top: 1em;
 }
 
 @media screen and (max-width: 74.93empx) {
