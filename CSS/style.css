@@ -404,7 +404,86 @@ img {
     margin-top: 1em;
 }
 
-@media screen and (max-width: 74.93empx) {
+@media screen and (max-width: 74.9375em) {
+    .content {
+        width: 90%;
+    }
+
+    .topo img {
+        width: 14em;
+        padding-right: 0.8em;
+    }
+
+    .banner-text h1 {
+        font-size: 2.65em;    
+    }
+
+    .banner-text p {
+        font-size: 1.2em;
+    }
+
+    .banner-text a {
+        font-size: 1.7em;
+    }
+
+    .jogos img {
+        width: 85%;
+    }
+
+    .about h2 {
+        font-size: 2em;
+    }
+
+    .about p {
+        font-size: 1em;
+    }
+
+    .about-position img {
+        max-width: 29.95em;
+        padding-left: 4em;
+        padding-bottom: 1.8em;
+    }
+
+    .jogos-aovivo, .jogos-embreve {
+        font-size: 1.43em;
+    }
+    
+    .jogos-aovivo h2, .jogos-embreve h2 {
+        font-size: 1.1em;
+    }
+
+
+    .noticias h2, .proximos-jogos h2 {
+        font-size: 1.5em;
+    }
+
+    .noticias .flex-center-bt {
+        justify-content: space-around;
+    }
+
+    .newscard {
+        max-width: 12.32em;
+    }
+
+    .newsletter input[type="email"] {
+        width: 9.4em;
+    }
+
+    .newsletter input[type="submit"] {
+        width: 7em;
+    }
+
+    .logo-rodape {
+        max-width: 15em;
+        padding-right: 0.5em;
+    }
+
+    .siga-nos h2 {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 61.937em) {
 
 }
 
